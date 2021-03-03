@@ -10,5 +10,3 @@ end
 return collection
 
 end
-
-
