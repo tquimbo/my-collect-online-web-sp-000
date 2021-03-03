@@ -3,8 +3,8 @@ def collect(collection)
 counter = 0
   collection = []
 while i < collection.length
-  my_collect(collection) do |lang|
-    lang.upcase
+  my_collect(collection) do |language|
+    language.upcase
     counter += 1
   end
 end
