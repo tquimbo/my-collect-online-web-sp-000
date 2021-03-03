@@ -6,6 +6,8 @@ while i < collection.length
 new_collection  << yield(collection[i])
     i += 1
   end
-return new_collection
+ new_collection
 
 end
+
+
