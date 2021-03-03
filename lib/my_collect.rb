@@ -6,7 +6,6 @@ while i < collection.length
 collection  << yield(collection[i])
     counter += 1
   end
-end
 return collection
 
 end
