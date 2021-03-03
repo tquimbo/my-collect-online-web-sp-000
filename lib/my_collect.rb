@@ -5,7 +5,7 @@ counter = 0
 while i < collection.length
   my_collect(collection) do |x|
     lang.upcase
-    counter +=x
+    counter += 1
   end
 return collection
 
