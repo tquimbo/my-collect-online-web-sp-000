@@ -7,6 +7,7 @@ while i < collection.length
     lang.upcase
     counter += 1
   end
+end
 return collection
 
 end
