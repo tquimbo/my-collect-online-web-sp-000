@@ -9,5 +9,3 @@ new_collection  << yield(collection[i])
  new_collection
 
 end
-
-
