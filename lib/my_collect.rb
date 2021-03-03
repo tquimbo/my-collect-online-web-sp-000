@@ -3,7 +3,7 @@ def collect(collection)
 counter = 0
   collection = []
 while i < collection.length
-  my_collect(collection) do |x|
+  my_collect(collection) do |lang|
     lang.upcase
     counter += 1
   end
