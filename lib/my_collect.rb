@@ -1,13 +1,10 @@
-def collect(collection)
-#were iterating over a collection with a while loop, executing a block of code,return collect
-counter = 0
-  collection = []
-while i < collection.length
-  collect(collection) do |language|
-    language.upcase
-    counter += 1
-  end
-end
-return collection
 
+def my_collect(collection)
+  i = 0
+  new_collection = []
+  while i < collection.length
+    new_collection << yield(collection[i])
+    i += 1
+  end
+  new_collection
 end
